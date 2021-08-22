@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files*/
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+@import 'tippy.js/dist/tippy.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.alt-gradient-button{
+    background: linear-gradient(to right,  rgb(111, 156, 182),rgb(166, 196, 240));
+    border: none;
+    color: white;
+    font-weight: 600;
+    opacity: 0.92;  
+}
+
+:hover{
+    opacity: 1;
+}
+
+
